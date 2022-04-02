@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#tsparticles {
+  height: 100vh;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.about_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.about_image {
+  width: 250px;
+  height: 250px;
+}
+
+.about_image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about_content {
+  max-width: 400px;
+}
+
+.tech_container {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: #add8e669;
+  padding: 25px;
+  color: #71787fd1;
+}
+
+.tech_icons_container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon_badge {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-bottom: 5px solid black;
+  border-radius: 10px;
+}
+
+.icon_badge > span {
+  text-align: center;
+  font-size: larger;
+}
+
+.project_container {
+  padding: 15px;
+  background-color: #a59b9b1c;
+  border-radius: 10px;
+}
+
+.project_img_container {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.project_img_container > img {
+  width: 100%;
+  height: 350px;
+}
+
+.projects_btn_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project_container:hover {
+  transform: scale(1.01);
+  background-color: beige;
+}
+
+.con-det {
+  font-size: 24px;
+  margin: 0;
+  color: white;
+}
+
+#contact {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d2a37;
+  color: white;
+  gap: 10px;
+}
+
+@media (max-width: 720px) {
+  .about_container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .about_container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about_content {
+    max-width: 250px;
+  }
+}
