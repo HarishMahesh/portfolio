@@ -19,7 +19,7 @@ const About = () => {
         </p>
         <Button
           variant="secondary"
-          href="https://drive.google.com/file/d/1V7d7YuDWUKpHhdhaR4ZDEGQPr_mtH7nG/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Fuad-Sw2DkEk2El8vvHklmcBnbt3B3vk/view?usp=sharing"
           target="_blank"
         >
           My Resume

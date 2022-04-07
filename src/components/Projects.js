@@ -29,14 +29,14 @@ const Projects = () => {
                     target="_blank"
                     variant="secondary"
                   >
-                    Live link
+                    Live
                   </Button>
                   <Button
                     href="https://github.com/HarishMahesh/H-cart"
                     target="_blank"
                     variant="secondary"
                   >
-                    Source Code
+                    Code
                   </Button>
                 </div>
               </div>
@@ -64,14 +64,14 @@ const Projects = () => {
                     target="_blank"
                     variant="secondary"
                   >
-                    Live link
+                    Live
                   </Button>
                   <Button
                     href="https://github.com/HarishMahesh/Mern-Chat_app"
                     target="_blank"
                     variant="secondary"
                   >
-                    Source Code
+                    Code
                   </Button>
                 </div>
               </div>
@@ -98,14 +98,14 @@ const Projects = () => {
                     target="_blank"
                     variant="secondary"
                   >
-                    Live link
+                    Live
                   </Button>
                   <Button
                     href="https://github.com/HarishMahesh/money-manager-frontend"
                     target="_blank"
                     variant="secondary"
                   >
-                    Source Code
+                    Code
                   </Button>
                 </div>
               </div>
@@ -116,7 +116,7 @@ const Projects = () => {
             <div className="project_container">
               <div className="project_img_container">
                 <img
-                  src="https://www.zebrapen.com/wp-content/uploads/2019/10/10_24_NotesBlog-e1570723912946.jpg"
+                  src="https://miro.medium.com/max/1400/1*14NgZjywc9Ip0B2UVc01Aw.jpeg"
                   alt="Notes taker"
                 ></img>
               </div>
@@ -132,14 +132,14 @@ const Projects = () => {
                     target="_blank"
                     variant="secondary"
                   >
-                    Live link
+                    Live
                   </Button>
                   <Button
                     href="https://github.com/HarishMahesh/Notes-App"
                     target="_blank"
                     variant="secondary"
                   >
-                    Source Code
+                    Code
                   </Button>
                 </div>
               </div>
