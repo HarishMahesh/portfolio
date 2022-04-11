@@ -1,6 +1,4 @@
 
-#deployed URL
-https://elaborate-crepe-b70392.netlify.app/
 
 # Getting Started with Create React App
 
